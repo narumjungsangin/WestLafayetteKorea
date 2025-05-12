@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
@@ -12,7 +13,9 @@ const LandingPage = () => {
           <li>기본 스타일 리셋 확인</li>
           <li>ul에 점 생겼으면 성공</li>
         </ul>
-        <a href="#" className="inline-block mt-6 text-blue-600 underline">링크 스타일 확인</a>
+        <Link to="/buynsell" className="inline-block mt-6 text-blue-600 underline">About</Link>
+        <Link to="/BoardWrite.jsx" className="inline-block mt-6 text-blue-600 underline">About</Link>
+
       </main>
       <Footer />
     </div>
