@@ -2,7 +2,7 @@
   "name": "tailwind-vite-template",
   "private": true,
   "type": "module",
-  "homepage": "/blog",
+  "homepage": "https://junsuyoon.github.io/westlafayettekorea",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
